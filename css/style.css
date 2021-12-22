@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Raleway', sans-serif;
+    color: black;    
+    text-align: justify;
+    padding: 5%;
+    font-size: 15px;
+}
+a:link {
+    text-decoration: none;
+    }
+a:visited.header, a:active.header, a:link.header{
+        color: rgb(202, 233, 245);
+    }
+a:hover.header{
+        color: rgb(34, 75, 77);
+        text-decoration: none;
+    }
+   
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+img {
+        max-width: 100%;
+        height: auto;
+        }
+.header {
+    background-color: rgb(16, 100, 100);
+    color: rgb(244, 246, 247);
+    text-align: left;   
+    white-space: nowrap;
+    height: 55px;
+    font-size: 10px;    
+    font-family: 'Raleway', sans-serif;
+    }
+
+.logo{
+    padding-left: 8px;
+}
+.banner{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+.gallery{
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        }
+.footer {
+            background-color: rgb(16, 100, 100);
+            color: rgb(244, 246, 247);
+            text-align: left;   
+            white-space: nowrap; 
+            padding-left: 20px;           
+            height: 200px;
+            font-size: 10px;    
+            font-family: 'Raleway', sans-serif;
+            padding-top: 10px;
+            }
+@media only screen and (min-width: 768px) {
+                /* For tablets: */
+       
+        .logo{
+              padding-left: 50px;
+            }
+    }
+@media only screen and (min-width: 992px) {
+/* For desktop: */
+.header {
+    background-color: rgb(16, 100, 100);
+    color: rgb(244, 246, 247);
+    text-align: left;   
+    white-space: nowrap;
+    height: 55px;
+    font-size: 15px;    
+    font-family: 'Raleway', sans-serif;
+    } 
+.logo{
+    padding-left: 100px;
+   }
+}
+.footer {
+    background-color: rgb(16, 100, 100);
+    color: rgb(244, 246, 247);
+    text-align: left;   
+    white-space: nowrap; 
+    padding-left: 20px;           
+    height: 150px;
+    font-size: 15px;    
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    }
